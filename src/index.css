@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin:0;
+  padding:0;
+  }
+  
+  *,
+  *::before,
+  *::after{
+  box-sizing:inherit;
+  }
+  
+  html{
+  box-sizing: border-box;
+  }
+  
+  body{
+  line-height:1.6;
+  background-image: url("./icons/background-2.jpg")
+
+  }
+
+  .white-color{
+    fill:white;
+  }
+
+  @media only screen and (max-width: 640px) {
+    html {
+      font-size:60%;
+    }
+  }
+
+  
+  
+
