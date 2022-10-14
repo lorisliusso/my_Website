@@ -9,16 +9,16 @@ const Presentation = () => {
 
         <div className="bg-MainBlue flex flex-col space-y-10 items-center justify-center 
         md:flex-row md:items-center md:space-y-0
-        p-10  mx-auto text-white w-11/12 rounded-t-xl">
+        p-8  mx-auto text-white w-11/12 rounded-t-xl">
 
             <div className="flex flex-col space-y-3 ">
 
-                <h1 className='text-4xl font-bold w-2/3'>
-                    <span className='text-6xl block mb-5 w-fit font-dancing'>CIAO!</span>I’m Loris Liusso, a
+                <h1 className='text-3xl font-bold w-2/3'>
+                    <span className='text-5xl block mb-5 w-fit font-dancing'>CIAO!</span>I’m Loris Liusso, a
                     Front End Web developer.</h1>
 
                 <div className='w-fit'>
-                    <p className='text-2xl font-semibold'>	ReactJS Developer & TailwindCSS Lover</p>
+                    <p className='text-xl font-semibold'>	ReactJS Developer & TailwindCSS Lover</p>
                     <hr className=' bg-white' />
                 </div>
 

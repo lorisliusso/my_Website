@@ -14,22 +14,23 @@ const Certificates = () => {
 
     return (
 
-        <div className="flex flex-col space-y-5 bg-gray-100 p-8 w-11/12 mx-auto">
+        <div className="flex flex-col space-y-5 bg-white px-8 pt-8 pb-2 w-11/12 mx-auto">
 
             <h1 className="text-2xl self-center font-semibold ">Certificates</h1>
 
             <ul className="grid grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-8 p-4
-             bg-gray-200 rounded-xl justify-center items-center ">
+             bg-gray-100 rounded-xl justify-center items-start ">
 
 
-                <li>
+                <li >
 
                     <div className="flex space-x-3">
 
                         <img className="h-6" src={Codecademy} alt="img" />
 
                         <div className="flex flex-col space-y-5">
-                            <h2 className="font-semibold">FrontendEngenineer</h2>
+                            <h2 className="font-semibold">Frontend
+                                Engenineer</h2>
                             <p className="underline">Codecademy</p>
                             <a className="text-white text-base bg-MainBlue w-fit px-1 rounded-sm" href="" target="_blank">Link</a>
                         </div>
@@ -76,14 +77,15 @@ const Certificates = () => {
 
 
 
-                <li>
+                <li >
 
                     <div className="flex space-x-3">
 
                         <img className="h-6" src={Algoexpert} alt="img" />
 
                         <div className="flex flex-col space-y-5">
-                            <h2 className="font-semibold">ProgrammingExpert
+                            <h2 className="font-semibold">Programming
+                                Expert
                                 (Python)</h2>
                             <p className="underline">AlgoExpert</p>
                             <a className="text-white text-base bg-MainBlue w-fit px-1 rounded-sm" href="https://certificate.algoexpert.io/PE-d334de89f8" target="_blank">Link</a>

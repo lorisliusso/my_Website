@@ -9,6 +9,9 @@ import MailColor from "../icons/mail-black.svg"
 import YoutubeColor from "../icons/youtube-color.svg"
 import LinkedinColor from "../icons/linkedin-color.svg"
 import { useState } from "react";
+import { Link } from 'react-router-dom';
+
+
 
 const Navbar = () => {
 
@@ -23,15 +26,15 @@ const Navbar = () => {
         <>
 
 
-            <nav className="flex justify-between items-center p-4 0 mb-10"
+            <nav className="flex justify-between items-start p-4 mb-5"
                 id='navbar-desktop'>
 
-                <div className="h-20' w-20 cursor-pointer">
-                    <img src={logo} alt="logo" />
+                <div>
+                    <img className="h-12 cursor-pointer" src={logo} alt="logo" />
                 </div>
 
-                <div onClick={handleClick} className=" w-10 h-10 md:w-11 lg:hidden cursor-pointer hover:scale-110 transition duration-75 ease-in">
-                    <img className="white-color" src={svgHamburger} alt="hamburger" />
+                <div onClick={handleClick} className=" md:w-13 lg:hidden cursor-pointer hover:scale-110 transition duration-75 ease-in">
+                    <img className="white-color w-12 h-12 md:w-13" src={svgHamburger} alt="hamburger" />
 
                 </div>
 
@@ -40,7 +43,7 @@ const Navbar = () => {
 
                     <div className=" flex space-x-3 px-8 py-1 rounded-xl
                      bg-slate-700 items-center hover:bg-gray-400">
-                        <a className="cursor-pointer" href="">Contact Me</a>
+                        <Link className="cursor-pointer" to="/contact">Contact Me</Link>
                         <div className="w-6 self-end">
                             <img src={Mail} alt="Contact Me" />
                         </div>
@@ -87,7 +90,7 @@ const Navbar = () => {
 
                     <div className=" flex space-x-3 px-8 py-1 rounded-xl
                      items-center hover:underline">
-                        <a className="cursor-pointer" href="">Contact Me</a>
+                        <Link className="cursor-pointer" to="/contact">Contact Me</Link>
                         <div className="w-7 self-end">
                             <img src={MailColor} alt="Contact Me" />
                         </div>

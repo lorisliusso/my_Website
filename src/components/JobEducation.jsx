@@ -16,7 +16,7 @@ const JobEducation = () => {
 
     return (
 
-        <div className=" bg-white p-8 w-11/12 mx-auto pt-28">
+        <div className=" bg-white p-8 w-11/12 mx-auto pt-20">
 
             <div className="bg-gray-100 flex flex-col items-center p-4 
         rounded-xl mx-auto space-y-7 ">
@@ -24,7 +24,9 @@ const JobEducation = () => {
                 <h1 className="text-2xl font-bold">Job Experience & Education</h1>
 
                 <div className="w-10 h-10 self-end cursor-pointer shadow-md hover:-rotate-12 transition duration-75 ease-in ">
-                    <img src={LinkedinLogo} alt="linkedin" />
+                    <a href="https://www.linkedin.com/in/loris-liusso-3b7244194/" target="_blank">
+                        <img src={LinkedinLogo} alt="linkedin" />
+                    </a>
                 </div>
 
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-12 ">
