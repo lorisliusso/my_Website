@@ -16,7 +16,7 @@ const JobEducation = () => {
 
     return (
 
-        <div className=" bg-white p-8 w-11/12 mx-auto pt-20">
+        <div className=" bg-white p-8 w-11/12 mx-auto pt-16">
 
             <div className="bg-gray-100 flex flex-col items-center p-4 
         rounded-xl mx-auto space-y-7 ">
