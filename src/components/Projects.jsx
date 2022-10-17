@@ -55,7 +55,7 @@ const Projects = () => {
                         </div>
                     </a>
 
-                    <h2 className="font-extrabold text-lg">ADVANCE</h2>
+                    <h2 className="font-extrabold text-lg">ADVANCED</h2>
 
                 </div>
 

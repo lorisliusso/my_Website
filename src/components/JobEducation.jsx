@@ -43,12 +43,9 @@ const JobEducation = () => {
                                 <p>ag 2022 - oct 2022</p>
                                 <p>Frontend engineer specialization course.</p>
 
-                                <p> Topics covered:
+                                <p> <span className="font-semibold mr-1">Topics covered:</span>
 
-                                    HTML, CSS
-                                    JAVASCRIPT / TYPESCRIPT
-                                    REACT JS
-                                    GIT GITHUB
+                                    HTML / CSS / JAVASCRIPT / TYPESCRIPT / REACT / GIT / GITHUB
                                 </p>
                             </div>
 
@@ -90,11 +87,11 @@ const JobEducation = () => {
                                 <p>lug 2022 - sept 2022</p>
                                 <p>Frontend engineer course taught by Conner Ardman (Ex-Facebook Software Engineer).</p>
 
-                                <p> Topics covered:
+                                <p> <span className="font-semibold mr-1">Topics covered:</span>
 
-                                    -HTML, CSS
-                                    -JAVASCRIPT / TYPESCRIPT
-                                    -REACT JS
+                                    HTML / CSS
+                                    JAVASCRIPT / TYPESCRIPT
+                                    / REACT JS
                                 </p>
                             </div>
 
@@ -109,17 +106,17 @@ const JobEducation = () => {
                             <img className="h-10" src={Politecnico} alt="codecademy-logo" />
 
                             <div className="flex flex-col space-y-5">
-                                <h2 className="font-bold">Data Scientist</h2>
+                                <h2 className="font-bold">Data Scientist (Bootcamp)</h2>
                                 <p className="underline">Politecnico Di Milano</p>
                                 <p>mar 2022 - jul 2022</p>
-                                <p>Specialization course in Ai with prevalent use of Microsoft Azure services, graduated in July.
+                                <p>Specialization course in Ai with prevalent use of Microsoft Azure services, graduated in July. </p>
 
-                                    Topics covered:
+                                <p><span className="font-semibold mr-1">Topics covered:</span>
 
                                     Data Analysis & Machine Learning with Microsoft Azure Platform and Python.
 
-                                    Ethics and Laws of AI.
-                                </p>
+                                    Ethics and Laws of AI. </p>
+
                             </div>
 
                         </div>
@@ -135,16 +132,16 @@ const JobEducation = () => {
                             <img className="h-10" src={Lewagon} alt="codecademy-logo" />
 
                             <div className="flex flex-col space-y-5">
-                                <h2 className="font-bold">Data Scientist</h2>
+                                <h2 className="font-bold">Data Scientist (Bootcamp)</h2>
                                 <p className="underline">Le Wagon</p>
                                 <p>sept 2021 - mar 2021</p>
-                                <p>Data science Bootcamp in Berlin, graduated in March.
+                                <p>Data science Bootcamp in Berlin, graduated in March.</p>
 
-                                    Topics covered:
+                                <p><span className="font-semibold mr-1">Topics covered:</span>
 
-                                    Data Analysis
-                                    Machine Learning
-                                    Deep Learning
+                                    Data Analysis /
+                                    Machine Learning /
+                                    Deep Learning :
 
                                     [Python, SQL, Statistics, Calculus, Linear Algebra, Pandas, Numpy, Matplotlib, Seaborn, Plotly, Scipy, Sklearn, Tensorflow, Google Cloud Platform, Docker, Fast-api.
                                 </p>
@@ -166,7 +163,7 @@ const JobEducation = () => {
                                 <h2 className="font-bold">Hotel Manager</h2>
                                 <p className="underline">Hotel Soraya</p>
                                 <p>may 2017 - sept 2021</p>
-                                <p>Hotel Management in Lignano.
+                                <p>Hotel Management in Lignano. (5 years)
                                 </p>
                             </div>
 
