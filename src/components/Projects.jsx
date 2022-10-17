@@ -1,6 +1,6 @@
-import GithubFinder from "../icons/github-finder.svg"
-import Bookmark from "../icons/bookmark-project.svg"
-import House from "../icons/house-project.svg"
+import GithubFinder from "../icons/icon-github.png"
+import Bookmark from "../icons/icon-bookmark.png"
+import House from "../icons/icon-home.png"
 
 
 
@@ -23,7 +23,7 @@ const Projects = () => {
 
                     <a href="https://bookmark-project-lorisliusso.vercel.app/" target='_blank'>
                         <div className="h-50 w-50 flex items-center justify-center bg-gray-200 rounded-xl hover:scale-110 transition duration-75 ease-in cursor-pointer p-2">
-                            <img className="h-40 bg-red-100 rounded-xl" src={Bookmark} alt="" />
+                            <img className="h-40 bg-gray-100 rounded-xl" src={Bookmark} alt="" />
                         </div>
                     </a>
 
@@ -37,7 +37,7 @@ const Projects = () => {
 
                     <a href="https://github-project-lorisliusso.vercel.app/" target='_blank'>
                         <div className="flex items-center justify-center bg-gray-200 rounded-xl hover:scale-110 transition duration-75 ease-in cursor-pointer p-2 ">
-                            <img className="h-40 bg-blue-100 rounded-xl" src={GithubFinder} alt="" />
+                            <img className="h-40 bg-gray-100 rounded-xl" src={GithubFinder} alt="" />
                         </div>
                     </a>
 
@@ -51,7 +51,7 @@ const Projects = () => {
 
                     <a href="https://realtor-project-lorisliusso.vercel.app/" target='_blank'>
                         <div className=" flex items-center justify-center bg-gray-200 rounded-xl hover:scale-110 transition duration-75 ease-in cursor-pointer p-2">
-                            <img className="h-40 bg-green-100 rounded-xl" src={House} alt="" />
+                            <img className="h-40 bg-gray-100 rounded-xl" src={House} alt="" />
                         </div>
                     </a>
 
