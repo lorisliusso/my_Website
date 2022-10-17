@@ -14,8 +14,9 @@ const Presentation = () => {
             <div className="flex flex-col space-y-3 ">
 
                 <h1 className='text-3xl font-bold w-2/3'>
-                    <span className='text-5xl block mb-5 w-fit font-dancing'>CIAO!</span>I’m Loris Liusso, a
-                    Front End Web developer.</h1>
+                    <span className='text-5xl block mb-5 w-fit font-dancing'>CIAO!</span >I’m Loris Liusso,
+                    <span className='bg-blue-600 ml-1'>a
+                        Front End Web developer.</span></h1>
 
                 <div className='w-fit'>
                     <p className='text-xl font-semibold'>	ReactJS Developer & TailwindCSS Lover</p>
