@@ -15,9 +15,7 @@ import matplotlibLogo from "../icons/matplotlib-logo.svg.png"
 import scipyLogo from "../icons/scipy-logo.svg.png"
 import sklearnLogo from "../icons/sklearn-logo.svg.png"
 import seabornLogo from "../icons/seaborn-logo.svg"
-
-
-
+import sassLogo from "../icons/sass-logo.png"
 
 
 const Skills = () => {
@@ -45,6 +43,11 @@ const Skills = () => {
                         <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
                             <p className="font-bold">CSS</p>
                             <img className="h-11" src={cssLogo} alt="" />
+                        </li>
+
+                        <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
+                            <p className="font-bold">SASS</p>
+                            <img className="h-10" src={sassLogo} alt="" />
                         </li>
 
                         <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
