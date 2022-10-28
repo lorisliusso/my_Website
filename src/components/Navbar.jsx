@@ -10,6 +10,7 @@ import YoutubeColor from "../icons/youtube-color.svg"
 import LinkedinColor from "../icons/linkedin-color.svg"
 import { useState } from "react";
 import { Link } from 'react-router-dom';
+import Github from "../icons/github-logo-nav.svg"
 
 
 
@@ -54,6 +55,14 @@ const Navbar = () => {
                         <a className="cursor-pointer" href="https://www.linkedin.com/in/loris-liusso-3b7244194/" target="_blank">Linkedin</a>
                         <div className="w-6">
                             <img src={Linkedin} alt="Contact Me" />
+                        </div>
+                    </div>
+
+                    <div className=" flex space-x-3 px-8 py-1
+                     rounded-xl bg-slate-700 items-center hover:bg-blue-500">
+                        <a className="cursor-pointer" href="https://github.com/lorisliusso?tab=repositories" target="_blank">Github</a>
+                        <div className="">
+                            <img className="h-6" src={Github} alt="Contact Me" />
                         </div>
                     </div>
 
