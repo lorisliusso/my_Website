@@ -11,6 +11,7 @@ import LinkedinColor from "../icons/linkedin-color.svg"
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 import Github from "../icons/github-logo-nav.svg"
+import GithubMobile from "../icons/github-logo.svg"
 
 
 
@@ -111,6 +112,14 @@ const Navbar = () => {
                         <a className="cursor-pointer" href="https://www.linkedin.com/in/loris-liusso-3b7244194/" target="_blank">Linkedin</a>
                         <div className="w-7">
                             <img src={LinkedinColor} alt="Contact Me" />
+                        </div>
+                    </div>
+
+                    <div className="  flex space-x-3 px-8 py-1 rounded-xl
+                     items-center hover:underline">
+                        <a className="cursor-pointer" href="https://github.com/lorisliusso?tab=repositories" target="_blank">Github</a>
+                        <div className="">
+                            <img className="h-7" src={GithubMobile} alt="Contact Me" />
                         </div>
                     </div>
 
