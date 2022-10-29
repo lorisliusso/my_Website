@@ -60,7 +60,7 @@ const Navbar = () => {
                     </div>
 
                     <div className=" flex space-x-3 px-8 py-1
-                     rounded-xl bg-slate-700 items-center hover:bg-blue-500">
+                     rounded-xl bg-slate-700 items-center hover:bg-slate-400">
                         <a className="cursor-pointer" href="https://github.com/lorisliusso?tab=repositories" target="_blank">Github</a>
                         <div className="">
                             <img className="h-6" src={Github} alt="Contact Me" />
