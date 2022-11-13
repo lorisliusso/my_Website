@@ -1,6 +1,7 @@
 import GithubFinder from "../icons/icon-github.png"
 import Bookmark from "../icons/icon-bookmark.png"
 import House from "../icons/icon-home.png"
+import Dashboard from "../icons/dashboard.svg"
 
 
 
@@ -14,8 +15,8 @@ const Projects = () => {
 
             <h2 className="text-2xl font-semibold">My Latest Projects:</h2>
 
-            <div className="flex flex-col space-y-5 md:flex-row
-             md:space-x-20 md:space-y-0 items-center justify-center font-semibold text-2xl text-gray-600">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-12 xl:gap-20
+              font-semibold text-2xl text-gray-600">
 
                 <div className="flex flex-col space-y-3 items-center">
 
@@ -44,6 +45,24 @@ const Projects = () => {
                     <h2 className="font-extrabold text-lg">MEDIUM</h2>
 
                 </div>
+
+
+
+                <div className="flex flex-col space-y-3 items-center" >
+
+                    <h2 className="font-dancing">Dashboard Project</h2>
+
+                    <a href="https://aalto-project-lorisliusso.vercel.app/" target='_blank'>
+                        <div className="flex items-center justify-center bg-gray-200 rounded-xl hover:scale-110 transition duration-75 ease-in cursor-pointer p-2 ">
+                            <img className="h-40 bg-gray-100 rounded-xl p-6" src={Dashboard} alt="" />
+                        </div>
+                    </a>
+
+                    <h2 className="font-extrabold text-lg">MEDIUM</h2>
+
+                </div>
+
+
 
                 <div className="flex flex-col space-y-3 items-center">
 

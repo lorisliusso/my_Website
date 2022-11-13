@@ -30,7 +30,7 @@ const Certificates = () => {
 
                         <div className="flex flex-col space-y-5">
                             <h2 className="font-semibold">Frontend
-                                Engenineer</h2>
+                                Engineer</h2>
                             <p className="underline">Codecademy</p>
                             <a className="text-white text-base bg-MainBlue w-fit px-1 rounded-sm" href="https://www.codecademy.com/profiles/system8820282091/certificates/5f85dd867b67b60014ac9ea3" target="_blank">Link</a>
                         </div>
