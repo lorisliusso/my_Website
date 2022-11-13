@@ -9,11 +9,7 @@ const Contact = () => {
 
     const navigate = useNavigate();
 
-
-
     return (
-
-
 
         <div className="min-h-screen flex flex-col bg-MainBlue p-8 container max-w-full items-center space-y-20">
 
@@ -71,17 +67,7 @@ const Contact = () => {
                 </div>
 
 
-
-
-
-
-
-
-
             </form >
-
-
-
 
 
             <form className="flex md:hidden mt-20  w-full" id='mobile-form'
@@ -95,7 +81,6 @@ const Contact = () => {
                         <h2 className="text-3xl font-semibold">Get in Touch!</h2>
                         <img className="h-5" src={EmailContact} alt="" />
                     </div>
-
 
 
                     <input className="border-2 border-gray-400 p-2" type="text" name='name' placeholder='Name' />
@@ -119,20 +104,11 @@ const Contact = () => {
                 </div>
 
 
-
             </form >
         </div >
 
-
-
-
-
     )
 
-
-
 }
-
-
 
 export default Contact;

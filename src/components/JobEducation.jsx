@@ -9,8 +9,6 @@ import HotelSoraya from "../icons/hotelsoraya.png"
 import Uniud from "../icons/uniud.png"
 
 
-
-
 const JobEducation = () => {
 
 
@@ -207,14 +205,7 @@ const JobEducation = () => {
 
                     </li>
 
-
-
                 </ul>
-
-
-
-
-
 
 
             </div>
@@ -222,10 +213,6 @@ const JobEducation = () => {
 
         </div>
     )
-
-
-
-
 
 }
 

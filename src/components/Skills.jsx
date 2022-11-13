@@ -136,27 +136,16 @@ const Skills = () => {
                             <img className="h-10" src={sqlLogo} alt="" />
                         </li>
 
-
                     </ul>
 
                 </div>
 
 
-
             </div>
-
-
-
-
-
 
 
         </div >
     )
-
-
-
-
 
 }
 

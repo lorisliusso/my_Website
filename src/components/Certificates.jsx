@@ -7,10 +7,7 @@ import UniDuke from "../icons/uniduke.png"
 import UniStanford from "../icons/unistanford.png"
 
 
-
-
 const Certificates = () => {
-
 
     return (
 
@@ -180,19 +177,11 @@ const Certificates = () => {
 
                 </li>
 
-
-
-
-
             </ul>
 
 
         </div>
     )
-
-
-
-
 
 }
 

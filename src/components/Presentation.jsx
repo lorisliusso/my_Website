@@ -1,9 +1,6 @@
 import Me from '../icons/me.jpg'
 
-
 const Presentation = () => {
-
-
 
     return (
 
@@ -25,29 +22,16 @@ const Presentation = () => {
 
             </div>
 
-
             <div className='w-40 md:w-60 '>
 
                 <img className='rounded-full' src={Me} alt="my_profile" />
 
-
-
             </div>
-
-
-
 
         </div>
 
-
-
-
-
-
-
     )
 }
-
 
 
 export default Presentation;

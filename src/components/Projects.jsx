@@ -3,10 +3,7 @@ import Bookmark from "../icons/icon-bookmark.png"
 import House from "../icons/icon-home.png"
 import Dashboard from "../icons/dashboard.svg"
 
-
-
 const Projects = () => {
-
 
 
     return (
@@ -61,7 +58,6 @@ const Projects = () => {
                     <h2 className="font-extrabold text-lg">MEDIUM</h2>
 
                 </div>
-
 
 
                 <div className="flex flex-col space-y-3 items-center">

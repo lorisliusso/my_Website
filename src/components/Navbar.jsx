@@ -14,7 +14,6 @@ import Github from "../icons/github-logo-nav.svg"
 import GithubMobile from "../icons/github-logo.svg"
 
 
-
 const Navbar = () => {
 
     const [sideNavbar, setSideNavbar] = useState(false)
@@ -26,7 +25,6 @@ const Navbar = () => {
     return (
 
         <>
-
 
             <nav className="flex justify-between items-start p-4 mb-5"
                 id='navbar-desktop'>
@@ -134,12 +132,9 @@ const Navbar = () => {
 
             </nav >
 
-
-
         </>
     )
 }
-
 
 
 export default Navbar;
