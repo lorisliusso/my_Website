@@ -33,12 +33,12 @@ const Navbar = () => {
                     <img className="h-12 cursor-pointer" src={logo} alt="logo" />
                 </div>
 
-                <div onClick={handleClick} className=" md:w-13 lg:hidden cursor-pointer hover:scale-110 transition duration-75 ease-in">
+                <div onClick={handleClick} className=" md:w-13 xl:hidden cursor-pointer hover:scale-110 transition duration-75 ease-in">
                     <img className="white-color w-12 h-12 md:w-13" src={svgHamburger} alt="hamburger" />
 
                 </div>
 
-                <div className="hidden lg:flex space-x-10 text-2xl text-white">
+                <div className="hidden xl:flex space-x-10 text-2xl text-white">
 
 
                     <div className=" flex space-x-3 px-8 py-1 rounded-xl
@@ -80,7 +80,7 @@ const Navbar = () => {
 
             {/* NAVBAR MOBILE: */}
 
-            < nav className={sideNavbar === false ? "absolute z-0 opacity-0"
+            < nav className={sideNavbar === false ? "absolute z-0 invisible opacity-0"
                 : "opacity-100 flex flex-col items-center space-y-20 p-4 absolute z-20 bg-white w-full h-full inset-y-0 right-0 transition-opacity  duration-300 ease-in-out"}
                 id='navbar-mobile' >
 
