@@ -44,7 +44,7 @@ const Contact = () => {
 
                     <input className="block border-2 border-gray-400 p-2" type="text" name='subject' placeholder='Subject' required />
 
-                    <textarea className="p-2 border-2 border-gray-400" id="message" name="message" rows="8" placeholder="Your message..." required>
+                    <textarea className="p-2 border-2 border-gray-400" id="message" name="message" rows={8} placeholder="Your message..." required>
 
                     </textarea>
 
@@ -89,7 +89,7 @@ const Contact = () => {
 
                     <input className="block border-2 border-gray-400 p-2" type="text" name='subject' placeholder='Subject' />
 
-                    <textarea className="p-2 border-2 border-gray-400" id="message" name="message" rows="8" placeholder="Your message..." required>
+                    <textarea className="p-2 border-2 border-gray-400" id="message" name="message" rows={8} placeholder="Your message..." required>
 
                     </textarea>
 

@@ -1,6 +1,5 @@
 import Home from "./components/Home";
 import Contact from "./components/Contact";
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App= ()=> {

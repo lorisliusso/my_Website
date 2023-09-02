@@ -1,9 +1,9 @@
 import htmlLogo from "../icons/html-logo.svg"
-import cssLogo from "../icons/css-logo.svg"
 import tailwindLogo from "../icons/tailwind-logo-3.svg"
-import javascriptLogo from "../icons/javascript-logo.svg"
 import typescriptLogo from "../icons/typescript-logo.svg"
 import reactLogo from "../icons/react-logo.svg"
+import djangoLogo from "../icons/django-logo.svg"
+import graphqlLogo from "../icons/graphql-logo.svg"
 import gitLogo from "../icons/git-logo.svg"
 import githubLogo from "../icons/github-logo.svg"
 import pythonLogo from "../icons/python-logo.svg"
@@ -41,11 +41,6 @@ const Skills = () => {
                         </li>
 
                         <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
-                            <p className="font-bold">CSS</p>
-                            <img className="h-11" src={cssLogo} alt="" />
-                        </li>
-
-                        <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
                             <p className="font-bold">SASS</p>
                             <img className="h-10" src={sassLogo} alt="" />
                         </li>
@@ -56,11 +51,6 @@ const Skills = () => {
                         </li>
 
                         <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
-                            <p className="font-bold">JAVASCRIPT</p>
-                            <img className="h-10" src={javascriptLogo} alt="" />
-                        </li>
-
-                        <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
                             <p className="font-bold">TYPESCRIPT</p>
                             <img className="h-10" src={typescriptLogo} alt="" />
                         </li>
@@ -68,6 +58,16 @@ const Skills = () => {
                         <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
                             <p className="font-bold">REACT JS</p>
                             <img className="h-11" src={reactLogo} alt="" />
+                        </li>
+
+                        <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
+                            <p className="font-bold">GRAPHQL</p>
+                            <img className="h-11" src={graphqlLogo} alt="" />
+                        </li>
+
+                        <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit px-1 py-2  items-center justify-center">
+                            <p className="font-bold">DJANGO</p>
+                            <img className="h-11" src={djangoLogo} alt="" />
                         </li>
 
                         <li className="border-2 border-gray-300 rounded-xl flex space-x-2 h-fit items-center justify-center">

@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex space-x-2
             items-center">
                 <p className="text-xl ">Made with LOVE (ReactJS & TailwindCSS)</p>
-                <img className="h-10" src={Love} alt="" srcset="" />
+                <img className="h-10" src={Love} alt="" />
             </div>
 
             <div className="flex space-x-2 items-center">
